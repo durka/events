@@ -44,7 +44,7 @@ Our app will be based off of this simple idea.
 
 Alex's [Tutorial](https://github.com/clojure-android/lein-droid/wiki/Tutorial) is a good introduction to `lein-droid`. Skim through the tutorial to familiarize yourself with the basic `lein-droid` commands.
 
-This is how my `~/.lein/profiles.clj` looks like:
+This is what my `~/.lein/profiles.clj` looks like:
 ```clojure
 {:user {:plugins [ [lein-droid "0.2.0-beta3"] ]
         :android {:sdk-path "/home/kris/adt-bundle-linux-x86_64-20130522/sdk/"}}}
